@@ -1,0 +1,7 @@
+black
+ruff
+pytest
+
+beautifulsoup4
+flask
+pandas

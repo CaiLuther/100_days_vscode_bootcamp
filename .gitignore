@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.coverage
+.coverage*
+.pytest_cache/
+
+# Environments
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
