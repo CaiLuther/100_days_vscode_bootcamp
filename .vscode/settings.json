@@ -7,5 +7,4 @@
   "ruff.enable": true,
   "python.terminal.activateEnvironment": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "workbench.colorTheme": "Default Light+"
 }

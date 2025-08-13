@@ -26,38 +26,57 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure, incorrect input will result in death.")
 
 forest_direction = input(
-    "You reach an enchanted forest with two entrances. Which direction will you take? Answer 'Right' or 'Left': "
+    f"\nYou reach an enchanted forest with two entrances.\nWhich direction will you choose? Answer 'Right' or 'Left': "
 )
-print(forest_direction)
 
 if forest_direction == "Right":
-    print(f"You went {forest_direction} and narrowly avoided death by fairy.")
-    lake_choice = input(
-        "\nYou run off hearing the fairies cackling in the background...\n"
-        "You come across a lake that shimmers like diamonds.\n Will you wait and take a rest or swim accross? Answer 'Wait' or 'Swim': \n"
+    print(
+        f"\n You went {forest_direction} and narrowly avoided death by fairy."
+        f"\n\n-------------------------------------------------------------------\n"
     )
-    print(lake_choice)
-
+    lake_choice = input(
+        f"You run off hearing the fairies cackling in the distance..."
+        f"\nYou then come across a lake that shimmers like diamonds."
+        f"\nWill you wait and take a rest or swim accross? Answer 'Wait' or 'Swim': "
+    )
     if lake_choice == "Swim":
         print(
-            f"\nYou decided to {lake_choice} so you dive in, but quickly notice vibrations so extreme you feel it in the water all around you...\n"
-            "You surgace for air and get one last look at the sky before the lochness monster swallows you whole. \n You died.\n"
+            f"\n You decided to {lake_choice}, so you dive in but quickly notice vibrations so extreme you feel it in the water all around you..."
+            f"\n You surface for air and get one last look at the sky before the lochness monster swallows you whole."
+            f"\n You died."
+            f"\n\n-------------------------------------------------------------------\n"
         )
     elif lake_choice == "Wait":
         print(
-            f"\nYou decide now is a good time to f{lake_choice} and enjoy the stunning scenery while eating some snacks your mom packed you.\ntyu7p;/p"
-            "Suddenly you feel what must be an earthquake."
-            "The lochness monster explodes out of the water threatening you with its gaping maw."
-            "You start to panic when a portal opens beneathe you and transports you into a room with three doors"
+            f"\n You decide now is a good time to {lake_choice} and enjoy the stunning scenery while eating some snacks your mom packed you."
+            f"\n Suddenly you feel what must be an earthquake."
+            f"\n The lochness monster explodes out of the water threatening you with its gaping maw."
+            f"\n You start to panic when a portal opens beneathe you and transports you into a room with three doors."
+            f"\n\n-------------------------------------------------------------------\n"
+        )
+        door_choice = input(
+            f"You run off hearing the fairies cackling in the distance..."
+            f"\nYou then come across a lake that shimmers like diamonds."
+            f"\nWill you wait and take a rest or swim accross? Answer 'Wait' or 'Swim': "
         )
     else:
         print(
-            "The lochness monster peeks up out of the water and berates you for your incompetance in entering correct input. You feel shame so deep you can't go on. You died."
+            f"\n The lochness monster peeks up out of the water and berates you for your incompetance in entering correct input."
+            f"\n You feel shame so deep you can't go on. You slowly starve as you waste away."
+            f"\n You died."
+            f"\n\n-------------------------------------------------------------------\n"
         )
 
 elif forest_direction == "Left":
-    print(f"You went {forest_direction} and, fairies ate your flesh.")
+    print(
+        f"\n You went {forest_direction}, and fairies ate your flesh."
+        f"\n You died."
+        f"\n\n-------------------------------------------------------------------\n"
+    )
+
 else:
     print(
-        "Fairies ate you as a punishment for your incompetance in entering correct input. You died."
+        f"\n Fairies bound you and stripped your flesh from your bones as a punishment for your incompetance in entering correct input."
+        f"\n You died."
+        f"\n\n-------------------------------------------------------------------\n"
     )
