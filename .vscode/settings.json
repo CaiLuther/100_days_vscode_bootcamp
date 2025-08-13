@@ -7,4 +7,5 @@
   "ruff.enable": true,
   "python.terminal.activateEnvironment": true,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "prettier.trailingComma": "none"
 }
