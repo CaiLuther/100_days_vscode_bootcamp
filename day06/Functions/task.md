@@ -35,3 +35,5 @@ What is your name? #I type Angela
 Hello
 Angela
 ```
+![alt text](image.png)
+![alt text](image-1.png)
