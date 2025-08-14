@@ -39,3 +39,4 @@ Angela
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 ![alt text](image-2.png)
+![alt text](image-2.png) ### The same code actually worked for the maze!
